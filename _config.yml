@@ -35,6 +35,7 @@ minima:
 # remote_theme: daattali/beautiful-jekyll@6.0.1 # Uncomment the line above to use a remote theme
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 show_excerpts: true
 
