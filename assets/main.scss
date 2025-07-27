@@ -6,9 +6,14 @@
 
 // Add logo to masthead
 .site-title::before {
-	content: url("favicon-96x96.png");
-	display: inline-block;
-	position: relative;
-	width: 37px;
-	top: 5px;
+	background-image: url(/assets/favicon-96x96.png);
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    top: 7px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 8px;
 }
