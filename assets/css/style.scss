@@ -18,3 +18,25 @@
     background-repeat: no-repeat;
     margin-right: 8px;
 }
+
+//  ----------FOOTER----------
+// less space in the bottom
+.site-footer {
+  padding-bottom: 0;
+}
+
+// moving social media icons to the left
+.social-media-list {
+  margin: 0;
+}
+
+// for alighing the social media icons with description
+.social-media-list li, .pagination li {
+  margin: 0px 10px 5px 0;
+}
+
+// bigger sized social icons and color
+.fa-lg {
+  font-size: 1.5em;
+}
+// ----------------------------
