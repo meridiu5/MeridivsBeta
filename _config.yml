@@ -27,13 +27,6 @@ url: "https://meridivs.com" # the base hostname & protocol for your site, e.g. h
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-social_links:
-    - title: Seguimi su Instagram! | musciale
-      icon: instagram
-      url: "https://www.instagram.com/musciale/"
-    - title: Mi trovi su LinkedIn
-      icon: linkedin
-      url: "https://www.linkedin.com/in/alessandromuscia-consultant/"
 
 # Build settings
 # theme: minima
@@ -41,6 +34,14 @@ remote_theme: jekyll/minima@d4d779a
 
 minima:
   skin: dark
+  social_links:
+    - title: Seguimi su Instagram! | musciale
+      icon: instagram
+      url: "https://www.instagram.com/musciale/"
+    - title: Mi trovi su LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/alessandromuscia-consultant/"
+
 # remote_theme: daattali/beautiful-jekyll@6.0.1 # Uncomment the line above to use a remote theme
 plugins:
   - jekyll-remote-theme
