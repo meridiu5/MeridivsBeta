@@ -1,0 +1,17 @@
+{
+  "name": "meridivs-html-migration",
+  "version": "1.0.0",
+  "description": "Build script to convert Jekyll markdown posts into static HTML pages",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "sass": "sass _sass/minima/custom-styles.scss assets/css/styles.css --no-source-map --style=compressed",
+    "build:all": "npm run sass && npm run build"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^5.1.2",
+    "fs-extra": "^11.1.1",
+    "sass": "^1.71.0"
+  }
+}
